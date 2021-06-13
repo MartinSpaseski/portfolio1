@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martinque</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="centerPush">
+                <h1>Martin Spaseski</h1>
+                <h2>UX/UI Designer</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="naslov">
+        <h4>MY WORK</h4>
+    </div>
+
+    <div class="work">
+        <div class="box">
+            <h3 class="name">Vidi Vaka</h3>
+            <a href="#" class="buy">See More</a>
+            <div class="circle"></div>
+            <img src="img/vidivaka.png" class="product">
+        </div>
+        <div class="box">
+            <h3 class="name">Shum</h3>
+            <a href="#" class="buy">See More</a>
+            <div class="circle"></div>
+            <img src="img/shum.png" class="product">
+        </div>
+        <div class="box">
+            <h3 class="name">Brainster Next</h3>
+            <a href="#" class="buy">See More</a>
+            <div class="circle"></div>
+            <img src="img/brainsternext.png" class="product">
+        </div>
+</div>
+
+<script src="vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+</script>
+    
+</body>
+</html>
